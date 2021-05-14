@@ -1,6 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
+const cors = require('cors');
 const bodyParser = require('body-parser');
 const { errors, Joi, celebrate } = require('celebrate');
 const rateLimit = require('express-rate-limit');
