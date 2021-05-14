@@ -27,6 +27,13 @@ mongoose.connect('mongodb://localhost:27017/bitfilmsdb', {
 });
 
 const allowedCors = [
+  'http://mxnsoon.movies.nomoredomains.icu',
+  'https://mxnsoon.movies.nomoredomains.icu',
+  'https://www.mxnsoon.movies.nomoredomains.icu',
+  'https://api.mxnsoon.movies.nomoredomains.club',
+  'http://api.mxnsoon.movies.nomoredomains.club',
+  'https://www.api.mxnsoon.movies.nomoredomains.club',
+  'https://localhost:3000',
   'http://localhost:3000'
 ];
 
